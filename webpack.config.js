@@ -15,6 +15,9 @@ module.exports = {
     publicPath: ''
   },
   plugins: [
+    new webpack.DefinePlugin({
+      "FOOTBALL_API_KEY": JSON.stringify(config.get("footballData.apiKey"))
+    }),
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, './index.html'),
