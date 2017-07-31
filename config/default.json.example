@@ -1,0 +1,8 @@
+{
+  "footballData": {
+    "apiKey": "..."
+  },
+  "devServer": {
+    "port": 4060
+  }
+}

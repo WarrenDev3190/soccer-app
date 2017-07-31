@@ -1,0 +1,23 @@
+{
+  "name": "soccer-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "config": "^1.26.1",
+    "cross-env": "^5.0.1",
+    "elm-test": "^0.18.7",
+    "elm-webpack-loader": "^4.3.1",
+    "html-webpack-plugin": "^2.30.1",
+    "npm-run-all": "^4.0.2",
+    "rimraf": "^2.6.1",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
