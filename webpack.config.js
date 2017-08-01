@@ -16,7 +16,8 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({
-      "FOOTBALL_API_KEY": JSON.stringify(config.get("footballData.apiKey"))
+      "FOOTBALL_API_KEY": JSON.stringify(config.get("footballData.apiKey")),
+      "FOOTBALL_API_BASE_URL": JSON.stringify(config.get("footballData.baseURI"))
     }),
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
